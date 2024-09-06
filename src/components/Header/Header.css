@@ -1,0 +1,39 @@
+/* Header.css */
+/* ! Important is used here to overcome any style overriding */
+.appBar {
+  background-color: white !important;
+  box-shadow: none !important;
+  height: 70px !important;
+}
+
+.typography {
+  flex-grow: 1;
+  color: darkblue !important;
+  font-weight: bold !important;
+  font-size: 2.0rem !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.typographyIcon {
+  font-size: 70px !important;
+  margin-right: 8px !important;
+}
+
+.button {
+  background-color: darkblue !important;
+  color: white !important;
+  border-radius: 30px !important;
+  margin: 0 5px !important;
+  font-weight: bold !important;
+  height: 80% !important;
+}
+
+.buttonHome {
+  border-radius: 40px !important;
+  margin: 0 10px !important;
+}
+
+.button:hover {
+  background-color: blue !important;
+}

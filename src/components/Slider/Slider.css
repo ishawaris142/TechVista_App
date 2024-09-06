@@ -1,0 +1,42 @@
+.slider-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.slider-item {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  transition: opacity 0.5s ease-in-out;
+  position: absolute;
+  height: 100%;
+}
+
+.slider-description {
+  flex: 1;
+  padding: 20px;
+  background-color: #f9f9f9; /* Light background for the description */
+  text-align: center;
+}
+
+.slider-image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.slider-title{
+  font-weight: 1000;
+  color: darkblue;
+}
+
+.slider-image {
+  max-width: 100%;
+  max-height: 400px; /* Adjust based on your design */
+  object-fit: cover;
+}
+
+.slider-caption {
+  font-size: 1.2rem;
+  color: #333; /* Adjust color based on your design */
+}
